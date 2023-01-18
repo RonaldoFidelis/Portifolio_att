@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- main.js -->
     <script defer src="./assets/js/main.js"></script>
-    <!-- swiper js -->
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <!-- css -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <!-- icones|unicons -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <title>Portifolio| Ronaldo F.</title>
 </head>
-
 <body>
     <!-- barra de navegação -->
     <header class="header" id="header">
@@ -28,25 +26,21 @@
                             <i class="uil uil-estate nav_icon">Inicio</i>
                         </a>
                     </li>
-
                     <li class="nav_item">
                         <a href="#about" class="nav_link">
                             <i class="uil uil-user nav_icon">Sobre</i>
                         </a>
                     </li>
-
                     <li class="nav_item">
                         <a href="#skills" class="nav_link">
                             <i class="uil uil-brackets-curly nav_icon">Tecnologias</i>
                         </a>
                     </li>
-
                     <li class="nav_item">
                         <a href="#qualification" class="nav_link">
                             <i class="uil uil-brain nav_icon">Qualificações</i>
                         </a>
                     </li>
-
                     <li class="nav_item">
                         <a href="#project" class="nav_link">
                             <i class="uil uil-rocket nav_icon">Projetos</i>
@@ -69,11 +63,10 @@
             <div class="home_container container grid">
                 <div class="home_content grid">
                     <div class="home_social">
-                        <a href="https://www.linkedin.com/in/ronaldo-fidelis-9922941a9/" class="home_social-icon"
-                            target="_blank">
+                        <a href="https://www.linkedin.com/in/ronaldo-fidelis-9922941a9/" target="_blank" class="home_social-icon">
                             <i class="uil uil-linkedin"></i>
                         </a>
-                        <a href="https://github.com/RonaldoFidelis" class="home_social-icon" target="_blank">
+                        <a href="https://github.com/RonaldoFidelis" target="_blank" class="home_social-icon">
                             <i class="uil uil-github"></i>
                         </a>
                     </div>
@@ -86,17 +79,16 @@
                             </mask>
                             <g mask="url(#mask0)">
                                 <path
-                                    d="M50.4,-30C59.4,-13.5,56.7,8.8,46.3,26.5C36,44.1,18,57.1,-1.2,57.8C-20.5,58.5,-41,47,-54.4,27.6C-67.8,8.2,-74.1,-19.1,-63.8,-36.3C-53.6,-53.5,-26.8,-60.7,-3,-58.9C20.7,-57.2,41.4,-46.5,50.4,-30Z"
+                                    d="M190.312 36,-30C59.4,-13.5,56.7,8.8,46.3,26.5C36,44.1,18,57.1,-1.2,57.8C-20.5,58.5,-41,47,-54.4,27.6C-67.8,8.2,-74.1,-19.1,-63.8,-36.3C-53.6,-53.5,-26.8,-60.7,-3,-58.9C20.7,-57.2,41.4,-46.5,50.4,-30Z"
                                     transform="translate(100 100)" />
-                                <image class="home_blob-img" xlink:href="assets/img/ft_perfil_fundoAzul.jpeg" />
+                                <image class="home_blob-img" x="20" y="40" xlink:href="assets/img/ft_perfil_fundoAzul.jpeg" />
                             </g>
                         </svg>
-                    </div>
+                    </div>                   
                     <div class="home_data">
                         <h1 class="home_title">Olá, sou Ronaldo Fidelis</h1>
                         <h3 class="home_subtitle">Desenvolvedor Front-end | QA</h3>
-                        <p class="home_description"> Graduando em engenharia de software & análise e desenvolvimento de
-                            sistemas.</p>
+                        <p class="home_description"> Graduando em engenharia de software & análise e desenvolvimento de sistemas.</p>
                     </div>
                 </div>
                 <div class="home_scroll">
@@ -108,7 +100,7 @@
             </div>
         </section>
         <!-- apresentação -->
-        <section class="about section" id="about">
+        <section class="about section " id="about">
             <h2 class="section__title">Sobre mim</h2>
             <span class="section__subtitle">About</span>
 
@@ -125,7 +117,6 @@
                     </div>
                 </div>
             </div>
-            <br>
         </section>
         <!-- Tecnologias -->
         <section class="skills section" id="skills">
@@ -206,9 +197,8 @@
                 </div>
             </div>
         </section>
-
         <!-- Educação -->
-        <section class="qualification section" id="qualification">
+        <section class="qualification section">
             <h2 class="section__title">Qualificações</h2>
             <span class="section__subtitle">Qualification</span>
 
@@ -255,7 +245,7 @@
 
                             <div>
                                 <h3 class="qualification_title">Sistemas para internet</h3>
-                                <span class="qualification_subtitle">Unicap - Cursado até 3º Periodo</span>
+                                <span class="qualification_subtitle">Unicap - 3º Periodo</span>
                                 <div class="qualification_calendar">
                                     <i class="uil uil-calendar-alt"></i>
                                     2021 - 2022
@@ -268,11 +258,11 @@
 
                             <div>
                                 <span class="qualification_rounder"></span>
-                                <span class="qualification_line"></span>
+                                <!-- <span class="qualification_line"></span> -->
                             </div>
 
                             <div>
-                                <h3 class="qualification_title">Análise e desenvolvimentode de sistemas</h3>
+                                <h3 class="qualification_title">ADS</h3>
                                 <span class="qualification_subtitle">UniFBV - 1º Periodo</span>
                                 <div class="qualification_calendar">
                                     <i class="uil uil-calendar-alt"></i>
@@ -282,7 +272,6 @@
                         </div>
 
                     </div>
-
                     <!-- Trabalho -->
                     <div class="qualification_content" data-content id="work">
                         <div class="qualification_data">
@@ -300,16 +289,95 @@
                                 <span class="qualification_line"></span>
                             </div>
                         </div>
-                    </div>  
+                    </div>
+
                 </div>
             </div>
         </section>
-
         <!-- projetos -->
-        <section class="projetos" id="projetos">
+        <section class="projetos section" id="projetos">
+            <h2 class="section__title">Projetos</h2>
+            <span class="section__subtitle">Projects</span>
 
+            <div class="projeto_container container swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!-- projeto 01 -->
+                    <div class="projeto_content grid swiper-slide">
+                        <img src="assets/img/poke.png" alt="" class="projeto_img">
+
+                        <div class="projeto_data">
+                            <h3 class="projeto_title">PokeDex</h3>
+                            <p class="projeto_description">Projeto feito com consumo do PokeApi com Fetch e funções
+                                assincronas, utilizando apenas css para estilizar.</p>
+                            <a href="#" class="button button--flex button--small projeto_button">
+                                Testar
+                                <i class="uil uil-navigator button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- projeto 02 -->
+                    <div class="projeto_content grid swiper-slide">
+                        <img src="assets/img/toDo.png" alt="" class="projeto_img">
+
+                        <div class="projeto_data">
+                            <h3 class="projeto_title">ToDo List</h3>
+                            <p class="projeto_description">dasdadasd</p>
+                            <a href="#" class="button button--flex button--small projeto_button">
+                                Testar
+                                <i class="uil uil-navigator button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- projeto 03 -->
+                    <div class="projeto_content grid swiper-slide">
+                        <img src="assets/img/mario.png" alt="" class="projeto_img">
+
+                        <div class="projeto_data">
+                            <h3 class="projeto_title">Mario Js</h3>
+                            <p class="projeto_description">Projeto feito com HTML, CSS E JavaScript Puro, usando apenas
+                                logica de programação.</p>
+                            <a href="#" class="button button--flex button--small projeto_button">
+                                Testar
+                                <i class="uil uil-navigator button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
         </section>
     </main>
+    <footer class="footer">
+        <div class="footer_bg">
+            <div class="footer_container container grid">
+                <div>
+                    <h1 class="footer_title">Ronaldo F.</h1>
+                    <span class="footer_subtitle">Desenvolvedor Front-end | QA</span>
+                </div>
+
+                <ul class="footer_links">
+                    <li>
+                        <a href="#home" class="footer_link">Home</a>
+                    </li>
+                </ul>
+
+                <div class="footer_socials">
+                    <a href="#" target="_blank" class="footer_social">
+                        Github<i class="uil uil-github"></i>
+                    </a>
+                    <a href="#" target="_blank" class="footer_social">
+                        Linkedin<i class="uil uil-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <p class="footer_copy">&#169; Ronaldo F.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 </body>
 
 </html>
