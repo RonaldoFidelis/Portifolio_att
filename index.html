@@ -17,20 +17,20 @@
 
 <body>
     <!-- barra de navegação -->
-    <header class="barra_navegacao" id="barra_navegacao">
+    <header class="header" id="header">
         <nav class="nav container">
-            <a href="#" class="nav_logo">Ronaldo</a>
+            <a href="#home" class="nav_logo">Portifolio | Ronaldo</a>
             <!-- Icones -->
             <div class="nav_menu" id="nav-menu">
                 <ul class="nav_list grid">
                     <li class="nav_item">
-                        <a href="#Inicio" class="nav_link">
+                        <a href="#home" class="nav_link">
                             <i class="uil uil-estate nav_icon">Inicio</i>
                         </a>
                     </li>
 
                     <li class="nav_item">
-                        <a href="#apresentacao" class="nav_link">
+                        <a href="#about" class="nav_link">
                             <i class="uil uil-user nav_icon">Sobre</i>
                         </a>
                     </li>
@@ -55,7 +55,7 @@
                 </ul>
                 <i class="uil uil-times nav_close" id="nav-close"></i>
             </div>
-            <div class="nav_btns">
+            <div class="nav_button">
                 <div class="nav_toggle" id="nav-toggle">
                     <i class="uil uil-bars"></i>
                 </div>
@@ -64,6 +64,7 @@
     </header>
     <!-- container -->
     <main class="main">
+        <!-- home -->
         <section class="home section" id="home">
             <div class="home_container container grid">
                 <div class="home_content grid">
@@ -88,7 +89,7 @@
                         </svg>
                     </div>
                     <div class="home_data">
-                        <h1 class="home_title">Oi!, meu nome é Ronaldo!</h1>
+                        <h1 class="home_title">Olá, sou Ronaldo Fidelis</h1>
                         <h3 class="home_subtitle">Desenvolvedor Front-end | QA</h3>
                         <p class="home_description"> Estudante de engenharia de software & análise e desenvolvimento de sistemas.</p>
                     </div>
@@ -102,8 +103,22 @@
             </div>
         </section>
         <!-- apresentação -->
-        <section class="apresentacao" id="apresentacao">
+        <section class="about section" id="about">
+            <h2 class="section__title">Sobre mim</h2>
+            <span class="section__subtitle">Intro</span>
 
+            <div class="about__container container grid">
+                <img src="assets/img/ft_perfil_fundoAzul.jpeg" class="about_img" alt="">
+                <div class="about_data">
+                    <p class="about_description">Desenvolvedor Web | QA, tenho conhecimento em tecnologias web, teste de software e gestão de projetos, prezando sempre na qualidade.</p>
+
+                    <div class="about_buttons">
+                        <a download="" href="assets/pdf/CV_RONALDOFIDELIS_DEV.pdf" class="button button--flex">
+                            Download CV<i class="uil uil-import button_icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- Tecnologias -->
         <section class="tecnologias" id="tecnologias">
