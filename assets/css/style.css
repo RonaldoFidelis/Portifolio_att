@@ -745,7 +745,11 @@ img{
         padding: 0;
     }
     .home_blob{
-        width: 340px;
+        width: 400px;
+    }
+    .home_blob-img{
+        width: 140px;
+        x: 30;
     }
     .home_social{
         transform: translateX(-6rem);
